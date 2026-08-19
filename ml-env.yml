@@ -1,0 +1,23 @@
+name: ml-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scipy
+  - scikit-learn
+  - xgboost
+  - statsmodels
+  - graphviz
+  - python-graphviz
+  - jupyter
+  - ipykernel
+  - pip
+  - pip:
+      - shap==0.48.0
+      - lime
+      - plotly
+      - faraway
